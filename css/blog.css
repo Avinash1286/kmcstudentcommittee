@@ -13,7 +13,8 @@ body {
 /* Left column */
 .leftcolumn {
   float: left;
-  width: 75%;
+  margin-left: 40px;
+  width: 70%;
 }
 
 /* Right column */
@@ -21,13 +22,6 @@ body {
   float: left;
   width: 25%;
   padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
 }
 
 /* Add a card effect for articles */
@@ -44,13 +38,15 @@ body {
   clear: both;
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+.popular_posts a {
+  text-decoration: none;
 }
+
+.popular_posts a:hover {
+  opacity: 0.5;
+}
+
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
